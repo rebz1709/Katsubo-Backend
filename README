@@ -1,0 +1,46 @@
+# 🛡️ Yume no Katsubō - Backend API
+
+This is the backend API for the **Yume no Katsubō** puzzle game — built with **Node.js + Express**, connected to **MongoDB**, and hosted on **Render**.
+
+---
+
+## 🌐 Live API Endpoint
+
+👉 [https://yume-backend-rabiya.onrender.com/api/characters](https://yume-backend-rabiya.onrender.com/api/characters)
+
+Returns:
+```json
+[
+  {
+    "name": "Yash",
+    "role": "Strategic puzzle master"
+  },
+  {
+    "name": "Shiro",
+    "role": "Wise and logical companion"
+  },
+  {
+    "name": "Rebz",
+    "role": "Glowing heroine (unlocked)",
+    "unlockable": true
+  }
+]
+
+⚙️ Tech Stack
+Node.js
+
+Express.js
+
+MongoDB Atlas
+
+Render (Hosting)
+
+dotenv for secure env vars
+
+yume-backend/
+├── server.js
+├── models/
+│   └── character.js
+├── routes/
+│   └── characters.js
+└── .env
